@@ -14,6 +14,7 @@ class Application {
       () => alert('clicked')
     )
     
+    eventListener.remove('sample')
   }
 }
 
