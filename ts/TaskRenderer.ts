@@ -27,11 +27,11 @@ export class TaskRenderer {
     }
 
     if (task.status === statusMap.doing) {
-      this.todoList.removeChild(taskEl)
+      this.doingList.removeChild(taskEl)
     }
 
     if (task.status === statusMap.done) {
-      this.todoList.removeChild(taskEl)
+      this.doneList.removeChild(taskEl)
     }
   }
 
